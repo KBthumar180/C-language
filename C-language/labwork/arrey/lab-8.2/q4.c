@@ -21,6 +21,7 @@ main(){
 	for(i=0;i<r;i++){
 		for(j=0;j<c;j++){
 			if(i==0 || j==0 || i==r || j==c ){
+				printf("%d %d",i,j);
 				printf("%d\n",a[i][j]);
 				sum+=a[i][j];
 			}
