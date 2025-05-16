@@ -17,6 +17,15 @@ main(){
 		
 	   }		
 	}
+	printf("original matrix \n");
+    for(i=0;i<r;i++){
+        for(j=0;j<c;j++){
+            if(i==0 || j==0 || i==r || j==c ){
+				printf("%d %d",i,j);
+        }
+    }
+    printf("\n");
+}
 	
 	for(i=0;i<r;i++){
 		for(j=0;j<c;j++){
@@ -27,5 +36,10 @@ main(){
 			}
 		}
 	}
+	
+
+        printf("\n");
+    
 	printf("the sum of diagonal elements is:- %d",sum);
+
 }
