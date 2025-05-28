@@ -1,7 +1,7 @@
 #include <stdio.h>
 void length();
 
-int main(){
+ main(){
     length();
 }
 
